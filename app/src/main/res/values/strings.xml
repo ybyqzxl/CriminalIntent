@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CriminalIntent</string>
+    <string name="subtitle_format">%1$s 陋习</string>
+    <string name="crime_report">%1$s!,该陋习发现在%2$s,%3$s,%4$s</string>
+</resources>

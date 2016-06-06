@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/list_item_crime_solved_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="4dp" />
+
+    <TextView
+        android:id="@+id/list_item_crime_title_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/list_item_crime_solved_checkbox"
+        android:padding="4dp"
+        android:text="标题"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/list_item_crime_date_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_item_crime_title_textview"
+        android:layout_toLeftOf="@id/list_item_crime_solved_checkbox"
+        android:padding="4dp"
+        android:text="时间"
+        android:textStyle="bold" />
+
+</RelativeLayout>
